@@ -22,3 +22,5 @@ export const authorizeRole = (...roles) => {
         next();
     };
 };
+
+export default verifyToken; 

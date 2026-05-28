@@ -1,4 +1,4 @@
-import { registerUser, loginUser } from "../controller/user.controller.js";
+import { registerUser, loginUser } from "../backend/controller/user.controller.js";
 import express from "express";
 
 const router = express.Router();
